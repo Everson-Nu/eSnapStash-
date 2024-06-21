@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+h1, h2 {
+  color: #03045e;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#itemPreview {
+  margin-bottom: 10px;
+}
+
+select, button {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:darkred;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#1a0dab;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: #c9302c;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+/* Category-specific colors */
+.Books {
+  background-color: #FFD700; /* Gold */
+}
+
+.Clothes {
+  background-color: #ADD8E6; /* Light Blue */
+}
+
+.Shoes {
+  background-color: #90EE90; /* Light Green */
+}
+
+.Electronics {
+  background-color: #FFB6C1; /* Light Pink */
+}
+
+.Pets {
+  background-color: #FFA07A; /* Light Salmon */
+}
+
+.Health {
+  background-color: #D8BFD8; /* Thistle */
+}

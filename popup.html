@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <h1>SnapStash</h1>
+  <div id="itemPreview">
+    <strong>Item:</strong>
+    <span id="itemTitle">Loading...</span>
+  </div>
+  <select id="category">
+    <option value="" disabled selected>Select a category</option>
+    <option value="Books">Books</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Shoes">Shoes</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Pets">Pets</option>
+    <option value="Health">Health</option>
+  </select>
+  <button id="saveButton">Save Item</button>
+  <div id="shoppingLists">
+    <h2>Books</h2>
+    <ul id="BooksList"></ul>
+    <h2>Clothes</h2>
+    <ul id="ClothesList"></ul>
+    <h2>Shoes</h2>
+    <ul id="ShoesList"></ul>
+    <h2>Electronics</h2>
+    <ul id="ElectronicsList"></ul>
+    <h2>Pets</h2>
+    <ul id="PetsList"></ul>
+    <h2>Health</h2>
+    <ul id="HealthList"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
